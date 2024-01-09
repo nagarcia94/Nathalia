@@ -107,6 +107,36 @@ img {
 }
 
 .tools {
-    margin: 100px;
+    margin: auto;
     background-color: var(--cor-menufundo);
+    display: flex;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    position: relative;
+}
+
+.design h3, .developer h3 {
+    margin-bottom: 100px;
+    margin-top: 20px;  
+}
+
+.design p, .developer p {
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.ground {
+    background-color: var(--cor-verdefundo);
+    padding: 5px;
+    font-weight: 300;
+    font-size: 20px;
+    color: var(--cor-menufundo);
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.design {
+    border-right: 2px solid var(--cor-cinzaletra);
 }
