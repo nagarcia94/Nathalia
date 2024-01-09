@@ -18,7 +18,8 @@
 
 body {
    background: linear-gradient(to right, #60A680,#a1e2bf, #e04f3973);
-   
+   font-family: 'Azeret Mono', monospace;
+   position: relative;
 }
 
 header {
@@ -49,7 +50,6 @@ header li {
 }
 
 h1 {
-    font-family: 'Azeret Mono', monospace;
     color: var(--cor-cinzaletra);
     text-align: center;
     margin: 100px;
@@ -57,10 +57,56 @@ h1 {
 }
 
 h2 {
-    font-family: 'Azeret Mono', monospace;
     color: var(--cor-cinzaletra);
     font-weight: 500;
     font-size: 20px;
    text-align: center;
    margin-bottom: 50px;
+}
+
+.aboutme {
+    display: flex;
+    margin: auto;
+    margin-top: 40px;
+    font-size: 18px;
+} 
+
+.aboutme h3, p {
+    margin-left: 200px;
+    color: var(--cor-cinzaletra);
+}
+.aboutme h3 {
+    font-size: 33px;
+    margin-bottom: 60px;
+    margin-left: 0;
+}
+.aboutme p {
+    font-weight:400;
+    text-align: justify;
+    margin-right: 100px;
+    margin-left: 200px;
+}
+.mode  {
+   color: var(--cor-menufundo);
+   margin-bottom: 20px;
+   margin-left: 300px;
+   font-size: 24px;  
+    
+}
+
+
+
+img {
+   border-top-right-radius: 50px;
+   border-top-left-radius: 50px;
+   position: absolute;
+   left: 40px;
+   max-width: 380px;
+   max-height: 320px;
+   margin-top: 60px;
+}
+
+.tools {
+    margin: 100px;
+    background-color: var(--cor-menufundo);
 }
