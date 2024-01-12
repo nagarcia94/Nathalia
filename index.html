@@ -59,11 +59,32 @@
     <article>
         <h3> Meus Projetos</h3>
     </article>
-    <br>
-    <article>
-        <h3>Entre em Contato</h3>
-    </article>
-</main>
+    <br> <br>
+    <article class="contato">
+        <h3>Contate-me</h3>
+    </article> <br> <br>
+    <form action="https://formspree.io/f/myyqonwv" method="post" autocomplete="off">
+
+        <div>
+            <!-- Nome -->
+            <label for="nome"></label>
+            <input type="text" name="nome" id="nome" required placeholder ="NOME" >
+        </div>
+
+        <div>
+            <!-- e-mail -->
+            <label for="email"></label>
+            <input type="email" name="email" id="email" required placeholder ="E-MAIL">
+        </div>
+        <div>
+            <label for="mensagem"></label>
+            <textarea required name="mensagem" id="mensagem" required placeholder ="MENSAGEM" cols="30" rows="10"></textarea>
+        </div>
+
+        <button type="submit">ENVIAR </button>
+        
+    </form>
+</main> <br><br>
 <footer>
     <a href="">github</a>
     <a href="">email</a>
