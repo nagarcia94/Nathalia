@@ -292,4 +292,5 @@ button:hover, button:focus {
     background-color: var(--cor-menufundo);
     border-radius: 50%;
     width: auto;
+    color: black;
 }
