@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="fontawesome-free-6.5.1-web/css/all.min.css">
     <title>Nathalia Garcia</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="slick-1.8.1/slick/slick-theme.css">
 </head>
 <header>
 
@@ -56,8 +58,13 @@
         </div>
     </article> 
     <br>
-    <article>
+    <article class="projetos">
         <h3> Meus Projetos</h3>
+        <div= class="galeria">
+            <div><img src="img/Elinutri.png" alt=""></div>
+            <div><img src="img/Microblog.png" alt=""></div>
+            <div><img src="img/simplicity .png" alt=""></div>
+        </div>
     </article>
     <br> <br>
     <article class="contato">
@@ -86,11 +93,32 @@
     </form>
 </main> <br><br>
 <footer>
+    <i class="fa-solid fa-envelope"></i>
+    <i class="fa-solid fa-phone"></i>
+    <i class="fa-brands fa-linkedin-in"></i>
+    <i class="fa-brands fa-github"></i>
     <a href="">github</a>
     <a href="">email</a>
     <a href="">phone</a>
     <a href="">linkdin</a>
     
 </footer>
+
+ <!-- Importação da biblioteca JQuery -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+ <!-- Importação do JS do plugin Slick -->
+ <script type="text/javascript" src="slick-1.8.1/slick/slick.min.js"></script>
+
+ <script>
+     $('.galeria').slick({
+         //    autoplay: true,
+         //    autoplaySpeed: 3000,
+         dots: true,
+         prevArrow: "<a class='voltar' href=''> &lt; </a>",
+         nextArrow: "<a class='avancar' href=''> &gt; </a>"
+     });
+ </script>
+
 </body>
 </html>

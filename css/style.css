@@ -11,15 +11,16 @@
 
   * {box-sizing: border-box;}
 
-  body, h1, h2, h3, p {
+ html, body, h1, h2, h3, p {
     margin: 0;
     padding: 0;
 }
 
 body {
-   background: linear-gradient(to right, #60A680,#a1e2bf, #e04f3973);
+   background: linear-gradient(to top, #60A680,#a1e2bf, #e04f3973);
    font-family: 'Azeret Mono', monospace;
    position: relative;
+   overflow-x:hidden;
 }
 
 header {
@@ -96,7 +97,7 @@ h2 {
 
 
 
-img {
+.aboutme img {
    border-top-right-radius: 50px;
    border-top-left-radius: 50px;
    position: absolute;
@@ -163,16 +164,68 @@ color: var(--cor-cinzaletra)
  
 }
 
+/* Regras para galeria */
+
+.projetos h3 {
+    text-align:center;
+    font-size: 32px;
+    font-weight: 400;
+    margin-top: 55px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    color: var(--cor-cinzaletra);
+}
+
+.galeria img {
+    width: 650px;
+    margin-left: 300px;
+    margin-bottom: 50px;
+ 
+
+}
+.voltar,
+.avancar {
+    position: absolute;
+    bottom: 140px;
+    color: var(--cor-cinzaletra);
+    text-decoration: none;
+    padding: 20px;
+    height: 40px;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    font-weight: 600;
+    
+
+}
+
+.voltar {
+    left: 0;
+}
+
+.avancar {
+    right: 0;
+}
+
+
+
+
 /* Regras para o formulário */
 
 .contato{
     font-size: 24px;
     margin-left: 55px;
+    color: var(--cor-cinzaletra);
+    margin-top: 80px;
+    margin-bottom: 10px;
 }
 form {
     max-width: 700px;
     margin: 0px;
     margin-left: 70px;
+    margin-bottom: 60px;
   
 }
 
