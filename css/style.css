@@ -277,3 +277,19 @@ button:hover, button:focus {
     color: var(--cor-escura);
     box-shadow: var(--cor-escura) 0 0 2px;
 }
+
+/* Regras para o footer */
+
+.link {
+    margin: 30px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.fa-envelope, .fa-phone, .fa-linkedin-in, .fa-github {
+    padding: 10px;
+    margin-left: 50px;
+    background-color: var(--cor-menufundo);
+    border-radius: 50%;
+    width: auto;
+}
