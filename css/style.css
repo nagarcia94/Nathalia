@@ -112,7 +112,7 @@ h2 {
     background-color: var(--cor-menufundo);
     display: flex;
     text-align: center;
-    margin-left: 280px;
+    margin-left: 150px;
     margin-right: 280px;
     margin-top: 80px;
     margin-bottom: 80px;
@@ -130,13 +130,20 @@ h2 {
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 20px;
-    text-align:left;
+    text-align:center;
 }
-.developer {
-    margin-left: 20px;
-    margin-right: 25px;
+.developer p {
+    text-align: center;
+    font-size: 20px;
+    
 }
 
+.developer p {
+    margin-right: 100px;
+}
+.design {
+    margin-right: 100px;
+}
 .ground {
     background-color: var(--cor-verdefundo);
     padding: 5px;
