@@ -33,6 +33,10 @@ header {
     
     
 }
+nav {
+    position: relative;
+    z-index: 2;
+}
 
 header li {
     display: inline;
@@ -218,6 +222,9 @@ h2 {
     width: 650px;
     margin-left: 300px;
     margin-bottom: 50px;
+    position: relative;
+    z-index: 1;
+  
  
 
 }
