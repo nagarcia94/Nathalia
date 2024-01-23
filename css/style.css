@@ -67,6 +67,17 @@ header li {
     padding: 8px;
 } 
 
+#section1 {
+    padding-top: 80px;
+}
+
+#section2 {
+    padding-top: 100px;
+}
+#section3 {
+    padding-top: 80px;
+}
+
 /* Regras para o corpo da página */
 
 main{
