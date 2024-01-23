@@ -23,15 +23,13 @@ body {
    overflow-x:hidden;
 }
 
-body:focus-within header {
-    background-color: red;
-}
+
 
 header {
     list-style-type: none;
     padding: 1px;
     font-family: 'Azeret Mono', monospace;
-    transition: background-color 0.3s ease;
+    
     
     
 }
