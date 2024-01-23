@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,117 +9,137 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="slick-1.8.1/slick/slick.css">
     <link rel="stylesheet" href="slick-1.8.1/slick/slick-theme.css">
+
 </head>
 <header>
 
-<ul class="menu">
-    <li>portifólio</li>
-    <li>sobre mim</li>
-    <li>contato</li>
-</ul>
+    <ul class="menu">
+        <li class="port"><a href="#section1">Portifólio</a></li>
+        <li><a href="#section2">Sobre mim</a></li>
+        <li><a href="#section3">Contato</a></li>
+    </ul>
 </header>
+
 <body>
     <main>
-    <h1>Olá,sou a Nath. <br>
-          UI/UX Designer & <br>
+        <h1>Olá,sou a Nath. <br>
+            UI/UX Designer & <br>
             Front-end Developer
-    </h1>
-    <br><br>
-    <h2>Construindo harmonia entre facilidade e beleza.
-        <br> Criando experiências funcionais. </h2><br><br>
-    <article class="aboutme">
-        <figure><img src="img/eu22.jpeg" alt="myself"></figure>
-        <div>
-            <h3>Sobre mim</h3>
-            <p class="mode"> <b>Olá, me chamo Nathalia. Muito Prazer!</b></p>
-           <p>Sou formada em  Programação Web pelo Senac São Paulo e atualmente curso UI/UX    Designer na Salvador TECH.<br>
-            Me identifico com essa área de tecnologia pois para mim é encantador construir interfaces  que ofereçam uma experiência agradável e de fácil usabilidade ao usuário. Além disso, é um ramo que oferece liberdade geográfica, sendo motivador para eu seguir aprendendo e me dedicando nessa jornada. <br>
-           Meus projetos são focados em criar uma interface em que o usuário se guie facilmente pela plataforma.
-           Tenho prazer em descobrir o que aquele público possui de expectativa na ferramenta e assim desenvolver tais oportunidades. <br>
-           Vamos juntos construir a melhor experiência ao seu cliente!</p>
-    </div>
-    </article>
-    <br>
-    <article class="tools">
-        
-        <div class="design">
-            <h3>Designer</h3>
-            <i class="fa-solid fa-layer-group"></i>
-            <p> Criando experiências envolventes, acessíveis, com design 
-                limpo pensando no usuário. </p>
-                <span class="text"><p class="ground"> Meus interesses</p>
-                <p>UX, UI, WEB, LOGOTIPO</p></span>
-        </div>
-        <div class="developer">
-            <h3>Developer</h3>
-            <i class="fa-solid fa-code"></i>
-            <p>Trasformando códigos em ideias reais.</p>
-            <span class="text"><p class="ground">Ferramentas </p>
-            <p>HTML, CSS, JS, PHP</p></span>
-        </div>
-    </article> 
-    <br>
-    <article class="projetos">
-        <h3> Meus Projetos</h3>
-        <div= class="galeria">
-            <div><img src="img/Elinutri.png" alt=""></div>
-            <div><img src="img/Microblog.png" alt=""></div>
-            <div><img src="img/simplicity .png" alt=""></div>
-        </div>
-    </article>
-    <br> <br>
-    <article class="contato">
-        <h3>Contate-me</h3>
-    </article> <br> <br>
-    <form action="https://formspree.io/f/myyqonwv" method="post" autocomplete="off">
+        </h1>
+        <br><br>
+        <h2>Construindo harmonia entre facilidade e beleza.
+            <br> Criando experiências funcionais.
+        </h2><br><br>
+        <article class="aboutme">
+            <figure><img src="img/eu22.jpeg" alt="myself"></figure>
+            <div>
+                <section id="section2">
+                    <h3>Sobre mim</h3>
+                </section>
+                <p class="mode"> <b>Olá, me chamo Nathalia. Muito Prazer!</b></p>
+                <p>Sou formada em Programação Web pelo Senac São Paulo e atualmente curso UI/UX Designer na Salvador
+                    TECH.<br>
+                    Me identifico com essa área de tecnologia pois para mim é encantador construir interfaces que
+                    ofereçam uma experiência agradável e de fácil usabilidade ao usuário. Além disso, é um ramo que
+                    oferece liberdade geográfica, sendo motivador para eu seguir aprendendo e me dedicando nessa
+                    jornada. <br>
+                    Meus projetos são focados em criar uma interface em que o usuário se guie facilmente pela
+                    plataforma.
+                    Tenho prazer em descobrir o que aquele público possui de expectativa na ferramenta e assim
+                    desenvolver tais oportunidades. <br>
+                    Vamos juntos construir a melhor experiência ao seu cliente!</p>
 
-        <div>
-            <!-- Nome -->
-            <label for="nome"></label>
-            <input type="text" name="nome" id="nome" required placeholder ="NOME" >
-        </div>
+            </div>
+        </article>
+        <br>
+        <article class="tools">
 
-        <div>
-            <!-- e-mail -->
-            <label for="email"></label>
-            <input type="email" name="email" id="email" required placeholder ="E-MAIL">
-        </div>
-        <div>
-            <label for="mensagem"></label>
-            <textarea required name="mensagem" id="mensagem" required placeholder ="MENSAGEM" cols="30" rows="10"></textarea>
-        </div>
+            <div class="designer">
+                <h3>Designer</h3>
+                <i class="fa-solid fa-layer-group"></i>
+                <p> Criando experiências envolventes e acessíveis. </p>
+                <span class="text">
+                    <h4 class="ground"> Meus interesses</h4>
+                    <p>UX, UI, WEB, LOGOTIPO</p>
+                </span>
+            </div>
+            <div class="developer">
+                <h3>Developer</h3>
+                <i class="fa-solid fa-code"></i>
+                <p>Trasformando códigos em ideias reais.</p>
+                <span class="text">
+                    <h4 class="ground">Ferramentas </h4>
+                    <p>HTML, CSS, JS, PHP</p>
+                </span>
+            </div>
+        </article>
+        <br>
+        <article class="projetos">
+            <section id="section1">
+                <h3> Meus Projetos</h3>
+            </section>
+            <div= class="galeria">
+                <div><img src="img/Elinutri.png" alt=""></div>
+                <div><img src="img/Microblog.png" alt=""></div>
+                <div><img src="img/simplicity .png" alt=""></div>
+                </div>
+        </article>
+        <br> <br>
+        <article class="contato">
+            <section id="section3"></section>
+            <h3>Contate-me</h3>
+        </article> <br> <br>
+        <form action="https://formspree.io/f/myyqonwv" method="post" autocomplete="off">
 
-        <button type="submit">ENVIAR </button>
-        
-    </form>
-</main> <br><br>
+            <div>
+                <!-- Nome -->
+                <label for="nome"></label>
+                <input type="text" name="nome" id="nome" required placeholder="NOME">
+            </div>
+
+            <div>
+                <!-- e-mail -->
+                <label for="email"></label>
+                <input type="email" name="email" id="email" required placeholder="E-MAIL">
+            </div>
+            <div>
+                <label for="mensagem"></label>
+                <textarea required name="mensagem" id="mensagem" required placeholder="MENSAGEM" cols="30"
+                    rows="10"></textarea>
+            </div>
+
+            <button type="submit">ENVIAR </button>
+
+        </form>
+    </main> <br><br>
+
+    <!-- Importação da biblioteca JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Importação do JS do plugin Slick -->
+    <script type="text/javascript" src="slick-1.8.1/slick/slick.min.js"></script>
+
+    <script>
+        $('.galeria').slick({
+            //    autoplay: true,
+            //    autoplaySpeed: 3000,
+            dots: true,
+            prevArrow: "<a class='voltar' href=''> &lt; </a>",
+            nextArrow: "<a class='avancar' href=''> &gt; </a>"
+        });
+    </script>
+
+</body>
+
 <footer class="link">
     <a target="_blank" href="mailto:000nagarcia@gmail.com"><i class="fa-solid fa-envelope"></i></a>
     <a target="_blank" href="https://wa.me/+5511991213760"><i class="fa-solid fa-phone"></i></a>
-    <a target="_blank" href="https://www.linkedin.com/in/nathalia-garcia-642426a6/"><i class="fa-brands fa-linkedin-in"></i></a>
+    <a target="_blank" href="https://www.linkedin.com/in/nathalia-garcia-642426a6/"><i
+            class="fa-brands fa-linkedin-in"></i></a>
     <a target="_blank" href="https://github.com/nagarcia94"><i class="fa-brands fa-github"></i></a>
-    
-    
-    
-   
-    
+
 </footer>
 
- <!-- Importação da biblioteca JQuery -->
- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
- <!-- Importação do JS do plugin Slick -->
- <script type="text/javascript" src="slick-1.8.1/slick/slick.min.js"></script>
-
- <script>
-     $('.galeria').slick({
-         //    autoplay: true,
-         //    autoplaySpeed: 3000,
-         dots: true,
-         prevArrow: "<a class='voltar' href=''> &lt; </a>",
-         nextArrow: "<a class='avancar' href=''> &gt; </a>"
-     });
- </script>
-
-</body>
 </html>
