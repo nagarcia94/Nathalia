@@ -58,6 +58,7 @@ header li {
     display: inline-block;
     border-radius: 50px;
     padding: 0px;
+    margin: auto;
     margin: 20px;
     margin-left: 25%;
     align-items: center;
@@ -99,7 +100,7 @@ h1 {
 
 #destaque {
    animation-name: anima;
-   animation-duration: 2s;
+   animation-duration: 2.5s;
 }
 
 @keyframes anima{
@@ -164,8 +165,11 @@ h2 {
 .tools {
     background-color: var(--cor-menufundo);
     display: flex;
-    margin:100px; 
+    margin: auto;
+    margin-top: 50px;
     width: 1000px; 
+    border-radius: 70px;
+
 }
 
 .designer h3, .developer h3 { 
@@ -235,7 +239,7 @@ h2 {
 
 .galeria img {
     width: 650px;
-    margin-left: 300px;
+    margin: auto;
     margin-bottom: 50px;
     position: relative;
     z-index: 1;
