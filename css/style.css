@@ -247,8 +247,8 @@ h2 {
  
 
 }
-.voltar,
-.avancar {
+
+.voltar, .avancar {
     position: absolute;
     bottom: 140px;
     color: var(--cor-cinzaletra);
@@ -357,4 +357,9 @@ button:hover, button:focus {
     border-radius: 50%;
     width: auto;
     color: black;
+}
+
+.link  i:hover {
+    background-color:black;
+    color: white;
 }
